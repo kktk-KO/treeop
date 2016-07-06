@@ -10,11 +10,11 @@ applyto
 ^^^^^^^
 .. code:: python
 
-    >>> apply(print, {"a": [1, 2], "b": [3, 4], level = 1)
+    >>> applyto(print, {"a": [1, 2], "b": [3, 4], level = 1)
     [1, 2]
     [3, 4]
 
-    >>> apply(print, {"a": [1, 2], "b": [3, 4], level = 2)
+    >>> applyto(print, {"a": [1, 2], "b": [3, 4], level = 2)
     1
     2
     3
